@@ -1,57 +1,24 @@
-<h1>Cardápio Digital - Backend</h1>
+# Cardápio digital
 
-<p align="center">
-  <a href="#pre-requisites">Pré-requisitos</a> •
-  <a href="#how-to-use">Instalando o projeto</a> •
-  <a href="#related">Frontend</a> •
-  <a href="#license">Licença</a>
-</p>
+## O que é?
+Esse sistema consiste em basicamente como uma alternativa para restaurantes os quais desejam ter um cardápio mais moderno e dinâmico, onde é possível colocar a imagem, um nome e um preço para o produto,
+onde foi desenvolvido utilizando ReactJS e JAVA. <br>
 
-Essa aplicação foi desenvolvido durante o video [Construindo aplicação Fullstack do ZERO](https://www.youtube.com/@kipperdev) utilizando **Java Spring e Spring MVC** para criação do servidor, **Spring Data JPA** para manipulação e persistência de dados, **Lombok** para geração de boilerplates e Postgres Driver para realizar a conexão com banco de dados Postgress.
+## Funcionalidades
+* Adicionar produtos
+* Remover produtos
+* inserir os dados do produto
+* listagem de produtos
 
-<h2 id="pre-requisites">💻 Requisitos</h2> 
+## Tecnologias
+* ReactJS
+* HTML5
+* CSS3
+* JAVA
 
-Para rodar esse projeto você precisa ter o Java instalado na sua máquina.
+## Imagens
+### a)Tela inical
+![WhatsApp Image 2023-12-13 at 16 35 56](https://github.com/juliohtm08/frontend-cardapio/assets/102925073/e4de59a8-ef59-430f-a955-033175ba1aca)
 
-<h2 id="how-to-use"> 🚀 Instalando o projeto</h2>
-
-Primeiro você deve clonar o repositório,
-
-```bash
-# Clone o repositório
-$ git clone https://github.com/fernandakipper/crud-java-back
-
-# Acesse-o
-$ cd crud-java-back
-```
-
-Agora, dentro do IntelliJ, vamos instalar as depedências com o Maven
-
-<img width="300px" src="./.github/instalar-deps.png">
-
-E por fim, entre no arquivo da classe `CardapioApllication` para executar o projeto
-
-<img width="300px" src="./.github/executar.png">
-
-<h2 id="related">🫂 Integração com Frontend</h2>
-
-Para realizar a integração com o Frontend, você pode clonar o projeto e rodar localmente, ou desenvolver você mesmo seguindo o tutorial no Youtube.
-
-👉 [EM BREVE: Desenvolvendo o Frontend com React e Typescript](https://www.youtube.com/@kipperdev)
-
-👉 [Link do repositório](https://github.com/Fernanda-Kipper/frontend-cardapio-digital)
-
-
-<h2 id="related">📝 Licença</h2>
-
-Este projeto está licenciado sob a licença MIT. Consulte o arquivo `LICENSE` para obter mais informações.
-
-
-## 📱 Minhas Redes
-
-Meu site: [fernandakipper.com](https://www.fernandakipper.com) &nbsp;&middot;&nbsp; 
-
-Instagram: [@kipper.dev](https://github.com/kipper.devb) &nbsp;&middot;&nbsp;
-
-YouTube [@kipperdev](https://www.youtube.com/@kipperdev) &nbsp;&middot;&nbsp;
-
+### b)Tela modal
+![WhatsApp Image 2023-12-13 at 16 36 13](https://github.com/juliohtm08/frontend-cardapio/assets/102925073/ff5f4e61-a844-4011-972a-845d59fc5596)
